@@ -1,0 +1,6 @@
+{
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "chat.agent.allowedNetworkDomains": [
+        ""
+    ]
+}

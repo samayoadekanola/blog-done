@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height:100vh;
+    width: auto;
+}
+.parent{
+    padding: 30px 25px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;  
+    gap: 20px;
+    border: solid 1.5px;
+    border-radius: 15px;
+    box-shadow: 5px 0 5px;
+}
+.parent img{
+    border-radius: 15px;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    background-color: hsl(47, 98%, 61%);
+    border-radius: 5px;
+}
+.onlyp{
+    width: 250px;
+}
+.two-divs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.two-divs img{
+    width: 30px;
+}
